@@ -1,0 +1,68 @@
+.container{
+    width: 1440px;
+}
+.top-page-box{
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.first-page{
+    display: flex;
+    justify-content: space-around;
+}
+.first-page-block:last-child{
+    width: 100%;
+    background: #996B60;;
+}
+.first-page-block__image{
+    width: 100%;
+    height: 796px;
+    object-fit: cover;
+}
+.left-box{
+    width: 600px;
+    padding-top: 277px;
+    padding-bottom: 100px;
+}
+.left-box__title {
+    padding: 35px 0px;
+    color: #FFF;
+    font-family: 'Liberation', serif;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px; /* 131.507% */
+}
+.left-box__subtitle {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+.left-box__button {
+    width: 180px;
+    height: 52px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 116.667% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 46px;
+}
+.left-box__button:hover{
+    background-color:black;
+    color:floralwhite;
+    transition: 3s;
+}
